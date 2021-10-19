@@ -1,0 +1,22 @@
+{
+  "name": "zh-elm-ui",
+  "version": "0.1.0",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "async-validator": "^4.0.3",
+    "element-ui": "^2.15.6",
+    "sass": "^1.41.0",
+    "sass-loader": "8.0.2",
+    "vuepress": "^1.0.1",
+    "zh-elm-ui": "^1.0.0"
+  },
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "vuepress-plugin-cat": "^1.0.3",
+    "vuepress-plugin-demo-block": "^0.7.2"
+  }
+}
