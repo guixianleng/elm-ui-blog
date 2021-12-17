@@ -2,7 +2,6 @@ const path = require('path')
 
 module.exports = {
   base: '/zh-elm-ui/',
-  dest: 'public',
   title: '组件库文档说明',
   description: '基于elementUI进行表单、表格等二次封装',
   head: [
