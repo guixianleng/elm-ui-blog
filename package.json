@@ -8,11 +8,11 @@
   },
   "devDependencies": {
     "async-validator": "^4.0.3",
-    "element-ui": "^2.15.6",
+    "element-ui": "2.14.1",
     "sass": "^1.41.0",
     "sass-loader": "8.0.2",
     "vuepress": "^1.0.1",
-    "zh-elm-ui": "^1.0.0"
+    "zh-elm-ui": "^1.1.1"
   },
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",

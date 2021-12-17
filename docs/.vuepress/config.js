@@ -2,8 +2,9 @@ const path = require('path')
 
 module.exports = {
   base: '/zh-elm-ui/',
+  dest: 'public',
   title: '组件库文档说明',
-  description: '基于elementUI进行二次封装',
+  description: '基于elementUI进行表单、表格等二次封装',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }],
@@ -20,19 +21,34 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'elm-ui',
+        title: '安装',
         collapsable: false,
         children: ['/views/'],
       },
       {
-        title: 'ElmForm表单',
+        title: 'form表单',
         collapsable: true,
         children: ['views/form.md'],
       },
       {
-        title: 'ElmTable表格',
+        title: 'table表格',
         collapsable: true,
         children: ['views/table.md'],
+      },
+      {
+        title: 'add-minus自增减',
+        collapsable: true,
+        children: ['views/add-minus.md'],
+      },
+      {
+        title: 'pagination分页',
+        collapsable: true,
+        children: ['views/pagination.md'],
+      },
+      {
+        title: 'upload上传',
+        collapsable: true,
+        children: ['views/upload.md'],
       },
     ],
   },

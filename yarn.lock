@@ -3126,6 +3126,18 @@ electron-to-chromium@^1.3.830:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.843.tgz#671489bd2f59fd49b76adddc1aa02c88cd38a5c0"
   integrity sha512-OWEwAbzaVd1Lk9MohVw8LxMXFlnYd9oYTYxfX8KS++kLLjDfbovLOcEEXwRhG612dqGQ6+44SZvim0GXuBRiKg==
 
+element-ui@2.14.1:
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/element-ui/-/element-ui-2.14.1.tgz#8b5745c7366c1c1a603bb6c021286ea7187e2aa2"
+  integrity sha512-Uje0J12dBaXdyvt/EtuDA8diFbYTdO7uI4QCfl7zmEJmE1WxgCSVKhlRRoL8MDonO8pyNVhB4n0AFAR14g56nw==
+  dependencies:
+    async-validator "~1.8.1"
+    babel-helper-vue-jsx-merge-props "^2.0.0"
+    deepmerge "^1.2.0"
+    normalize-wheel "^1.0.1"
+    resize-observer-polyfill "^1.5.0"
+    throttle-debounce "^1.0.1"
+
 element-ui@^2.15.6:
   version "2.15.6"
   resolved "https://registry.yarnpkg.com/element-ui/-/element-ui-2.15.6.tgz#c9609add35af5a686a4b7685dc1d757c75e01df3"
@@ -8142,10 +8154,10 @@ zepto@^1.2.0:
   resolved "https://registry.yarnpkg.com/zepto/-/zepto-1.2.0.tgz#e127bd9e66fd846be5eab48c1394882f7c0e4f98"
   integrity sha1-4Se9nmb9hGvl6rSME5SIL3wOT5g=
 
-zh-elm-ui@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/zh-elm-ui/-/zh-elm-ui-1.0.0.tgz#8b704cb3639c320d8da11ad0c273c0c6a7347069"
-  integrity sha512-OOdWyB4x6OaD3Omo7eHY9jdljwkP7J/YKZq/aWFE4pdX1ZTe1SASs/K+C0gr1Gfxkgl997qIS5v9HmzktZZKLA==
+zh-elm-ui@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/zh-elm-ui/-/zh-elm-ui-1.1.1.tgz#8005f586faad31d327f9893ee97ab29c1a694b09"
+  integrity sha512-VldD5ZuQKD985a/MXHMacaQQVFSa89r/iNz7x0o3bbhtCpvysh+A+t/mAkokbFcpi9Nwhrd2lytu8s4x5yVvtA==
   dependencies:
     element-ui "^2.15.6"
     vue "^2.6.11"
