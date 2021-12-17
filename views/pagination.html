@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>🎉 elm-pagination | 组件库文档说明</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/elm-ui-blog/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+    <meta name="description" content="基于elementUI进行表单、表格等二次封装">
+    
+    <link rel="preload" href="/elm-ui-blog/assets/css/0.styles.c7ae9fbc.css" as="style"><link rel="preload" href="/elm-ui-blog/assets/js/app.4898a38e.js" as="script"><link rel="preload" href="/elm-ui-blog/assets/js/2.eb3a6350.js" as="script"><link rel="preload" href="/elm-ui-blog/assets/js/11.0669e7e5.js" as="script"><link rel="prefetch" href="/elm-ui-blog/assets/js/10.306384fe.js"><link rel="prefetch" href="/elm-ui-blog/assets/js/12.58ff2717.js"><link rel="prefetch" href="/elm-ui-blog/assets/js/13.6e7863b8.js"><link rel="prefetch" href="/elm-ui-blog/assets/js/3.579a8c79.js"><link rel="prefetch" href="/elm-ui-blog/assets/js/4.063caab4.js"><link rel="prefetch" href="/elm-ui-blog/assets/js/5.3fe55072.js"><link rel="prefetch" href="/elm-ui-blog/assets/js/6.3374db83.js"><link rel="prefetch" href="/elm-ui-blog/assets/js/7.2047391e.js"><link rel="prefetch" href="/elm-ui-blog/assets/js/8.87d1ce8e.js"><link rel="prefetch" href="/elm-ui-blog/assets/js/9.c23d4018.js">
+    <link rel="stylesheet" href="/elm-ui-blog/assets/css/0.styles.c7ae9fbc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/elm-ui-blog/" class="home-link router-link-active"><!----> <span class="site-name">组件库文档说明</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/elm-ui-blog/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/elm-ui-blog/Elm-ui/" class="nav-link">
+  Elm-UI
+</a></div><div class="nav-item"><a href="/elm-ui-blog/standard/" class="nav-link">
+  开发规范
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/elm-ui-blog/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/elm-ui-blog/Elm-ui/" class="nav-link">
+  Elm-UI
+</a></div><div class="nav-item"><a href="/elm-ui-blog/standard/" class="nav-link">
+  开发规范
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>安装</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/elm-ui-blog/views/" aria-current="page" class="sidebar-link">🎉 安装</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>form表单</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>table表格</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>add-minus自增减</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>pagination分页</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/elm-ui-blog/views/pagination.html" aria-current="page" class="active sidebar-link">🎉 elm-pagination</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>upload上传</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="elm-pagination"><a href="#elm-pagination" class="header-anchor">#</a> 🎉 elm-pagination</h3> <h3 id="基本用法"><a href="#基本用法" class="header-anchor">#</a> 基本用法</h3> <div data-config="" data-type="vue" data-code="%3Ctemplate%3E%0A%20%20%3Cdiv%3E%0A%20%20%20%20%3Celm-pagination%0A%20%20%20%20%20%20%3Atotal%3D%22tableTotal%22%0A%20%20%20%20%20%20%3Aquery.sync%3D%22pagination%22%0A%20%20%20%20%20%20%40change-page%3D%22handleChangePagination%22%0A%20%20%20%20%2F%3E%0A%20%20%20%20%3Cdiv%20style%3D%22float%3A%20right%22%3E%0A%20%20%20%20%20%20%E7%95%B6%E5%89%8D%E9%A0%81%EF%BC%9A%7B%7Bpagination.current%7D%7D%2C%20%E7%95%B6%E5%89%8D%E9%A0%81%E6%95%B8%EF%BC%9A%7B%7Bpagination.size%7D%7D%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Ftemplate%3E%0A%0A%3Cscript%3E%0A%20%20export%20default%20%7B%0A%20%20%20%20data()%20%7B%0A%20%20%20%20%20%20return%20%7B%0A%20%20%20%20%20%20%20%20pagination%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20current%3A%201%2C%0A%20%20%20%20%20%20%20%20%20%20size%3A%2010%2C%0A%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20tableTotal%3A%20100%2C%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%2C%0A%20%20%20%20methods%3A%20%7B%0A%20%20%20%20%20%20handleChangePagination(value)%20%7B%0A%20%20%20%20%20%20%20%20console.log(value%2C%20'%E5%88%86%E9%A1%B5')%0A%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%7D%2C%0A%20%20%7D%0A%3C%2Fscript%3E%0A" class="vuepress-plugin-demo-block__wrapper" style="display:none;"><div class="vuepress-plugin-demo-block__display"><div class="vuepress-plugin-demo-block__app"></div></div> <div class="vuepress-plugin-demo-block__code"><div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>elm-pagination</span>
+      <span class="token attr-name">:total</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>tableTotal<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:query.sync</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>pagination<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@change-page</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>handleChangePagination<span class="token punctuation">&quot;</span></span>
+    <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">float</span><span class="token punctuation">:</span> right</span><span class="token punctuation">&quot;</span></span></span><span class="token punctuation">&gt;</span></span>
+      當前頁：{{pagination.current}}, 當前頁數：{{pagination.size}}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        pagination<span class="token operator">:</span> <span class="token punctuation">{</span>
+          current<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+          size<span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        tableTotal<span class="token operator">:</span> <span class="token number">100</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token function">handleChangePagination</span><span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>value<span class="token punctuation">,</span> <span class="token string">'分页'</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div></div> <div class="vuepress-plugin-demo-block__footer"></div></div> <h3 id="props"><a href="#props" class="header-anchor">#</a> props</h3> <table><thead><tr><th>参数</th> <th>说明</th> <th>类型</th> <th>默认值</th> <th>可选值</th></tr></thead> <tbody><tr><td>query</td> <td>分页参数</td> <td><code>Object</code></td> <td>{current: 1, size: 10,}</td> <td>--</td></tr> <tr><td>defaultProps</td> <td>自定义分页字段</td> <td><code>Object</code></td> <td>{page: 'current',limit: 'size'}</td> <td>--</td></tr> <tr><td>hidden</td> <td>隐藏分页</td> <td><code>Boolean</code></td> <td>false</td> <td>--</td></tr> <tr><td>--</td> <td>其他 props 继承原生</td> <td>--</td> <td>--</td> <td>--</td></tr></tbody></table> <h3 id="event"><a href="#event" class="header-anchor">#</a> event</h3> <table><thead><tr><th>事件名</th> <th>说明</th> <th>类型</th> <th>参数</th></tr></thead> <tbody><tr><td>change-page</td> <td>分页 change 事件</td> <td>Function</td> <td>当前分页和页数</td></tr></tbody></table></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">12/17/2021, 5:21:22 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/elm-ui-blog/views/add-minus.html" class="prev">
+        🎉 elm-add-minus
+      </a></span> <span class="next"><a href="/elm-ui-blog/views/upload.html">
+        🎉 elm-upload
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><div class="cat-container" data-v-a13867c0><canvas id="vuepress-cat" width="280" height="250" class="live2d" data-v-a13867c0></canvas></div><!----></div></div>
+    <script src="/elm-ui-blog/assets/js/app.4898a38e.js" defer></script><script src="/elm-ui-blog/assets/js/2.eb3a6350.js" defer></script><script src="/elm-ui-blog/assets/js/11.0669e7e5.js" defer></script>
+  </body>
+</html>
