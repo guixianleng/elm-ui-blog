@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  base: '/',
+  base: '/elm-ui-blog/',
   title: '组件库文档说明',
   description: '基于elementUI进行表单、表格等二次封装',
   head: [
